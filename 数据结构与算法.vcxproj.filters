@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\graph">
+      <UniqueIdentifier>{d80ccd73-5184-4d62-a9cc-4856671d9f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\graph">
+      <UniqueIdentifier>{edebc7e8-af86-484e-960c-1563925f34ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\union-find">
+      <UniqueIdentifier>{679a9568-f8f4-4939-a462-346ba89b1b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\union-find">
+      <UniqueIdentifier>{fa184c65-ad3d-4a1a-a0a8-0765bb7d8784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\search">
+      <UniqueIdentifier>{af4322a6-9b65-4c77-9610-c4132be81a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\search\binary_search">
+      <UniqueIdentifier>{685b0315-5cf1-49b9-87ac-5f2a719f1792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\search">
+      <UniqueIdentifier>{e8a193d4-d1d9-4d2a-9977-3f5ff37d33c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\search\binary_search">
+      <UniqueIdentifier>{e43b20bc-3c4c-4f0e-97dd-7cb589032953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\prefix_sum">
+      <UniqueIdentifier>{929598b0-17f0-45a5-9a6a-094e0ea41e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\prefix_sum">
+      <UniqueIdentifier>{2e37121c-f52c-4936-b054-63d18f1b8995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sort">
+      <UniqueIdentifier>{b82077ed-c698-46e0-8e5c-6742da59a13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sort">
+      <UniqueIdentifier>{fb36dfba-0999-4962-ac11-edbc62577d77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>源文件\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphTest.cpp">
+      <Filter>源文件\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="union_find.cpp">
+      <Filter>源文件\union-find</Filter>
+    </ClCompile>
+    <ClCompile Include="union_find_test.cpp">
+      <Filter>源文件\union-find</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search.cpp">
+      <Filter>源文件\search\binary_search</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search_test.cpp">
+      <Filter>源文件\search\binary_search</Filter>
+    </ClCompile>
+    <ClCompile Include="prefix_sum.cpp">
+      <Filter>源文件\prefix_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="insert_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="selection_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="shell_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="heap.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="quick_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="bucket_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="count_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="radix_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graph.h">
+      <Filter>头文件\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="union_find.h">
+      <Filter>头文件\union-find</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search.h">
+      <Filter>头文件\search\binary_search</Filter>
+    </ClInclude>
+    <ClInclude Include="prefix_sum.h">
+      <Filter>头文件\prefix_sum</Filter>
+    </ClInclude>
+    <ClInclude Include="bubble_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="insert_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="shell_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="heap.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="quick_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="merge_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="bucket_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="count_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="radix_sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
